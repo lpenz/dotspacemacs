@@ -58,6 +58,13 @@ values."
      haskell
      (rust :variables rust-format-on-save t)
      vimscript
+     yaml
+     graphviz
+     html
+     lua
+     shell-scripts
+     ansible
+     semantic
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these

@@ -322,6 +322,8 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (define-key evil-normal-state-map (kbd "C-P") 'evil-jump-forward)
   (define-key evil-normal-state-map (kbd "<f2>") 'save-buffer)
+  (define-key evil-normal-state-map (kbd "<f10>") 'projectile-compile-project)
+  (define-key evil-normal-state-map (kbd "C-C C-C") 'save-buffers-kill-terminal)
   (add-hook 'find-file-hook
     (lambda () (setq default-directory command-line-default-directory)))
   (setq powerline-default-separator 'utf-8)

@@ -325,6 +325,7 @@ you should place your code here."
   (define-key evil-normal-state-map (kbd "<f10>") 'projectile-compile-project)
   ; (define-key evil-normal-state-map (kbd "C-C C-C") 'save-buffers-kill-terminal); magic commit shortcut!
   (setq powerline-default-separator 'utf-8)
+  (setq python-shell-interpreter "python")
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

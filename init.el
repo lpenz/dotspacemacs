@@ -324,6 +324,7 @@ you should place your code here."
   (define-key evil-normal-state-map (kbd "C-P") 'evil-jump-forward)
   (define-key evil-normal-state-map (kbd "<f2>") 'save-buffer)
   (define-key evil-normal-state-map (kbd "<f10>") 'projectile-compile-project)
+  (define-key evil-normal-state-map (kbd "<f12>") 'neotree-find-project-root)
   ; (cd command-line-default-directory) ; do not start in buffer file dir
   ; (add-hook 'find-file-hook #'(lambda () (cd command-line-default-directory))) ; go back to original dir after opening buffer
   ; (define-key evil-normal-state-map (kbd "C-C C-C") 'save-buffers-kill-terminal); magic commit shortcut!

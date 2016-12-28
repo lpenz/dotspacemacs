@@ -324,6 +324,8 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (define-key evil-normal-state-map (kbd "C-P") 'evil-jump-forward)
   (define-key evil-normal-state-map (kbd "<f2>") 'save-buffer)
+  (define-key evil-normal-state-map (kbd "<f4>") 'spacemacs/next-error)
+  (define-key evil-normal-state-map (kbd "<f9>") 'spacemacs/error-transient-state/body)
   (define-key evil-normal-state-map (kbd "<f10>") 'projectile-compile-project)
   (define-key evil-normal-state-map (kbd "<f12>") 'neotree-find-project-root)
   ; (cd command-line-default-directory) ; do not start in buffer file dir

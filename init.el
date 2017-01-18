@@ -341,6 +341,7 @@ you should place your code here."
   (setq dotspacemacs-auto-save-file-location 'original)
   (setq powerline-default-separator 'utf-8)
   (setq python-shell-interpreter "python")
+  (spacemacs/toggle-semantic-stickyfunc-globally-off)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

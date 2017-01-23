@@ -341,6 +341,7 @@ you should place your code here."
   (setq dotspacemacs-auto-save-file-location 'original)
   (setq powerline-default-separator 'utf-8)
   (setq python-shell-interpreter "python")
+  (setq helm-ag-command-option " -U ")
   (spacemacs/toggle-semantic-stickyfunc-globally-off)
   )
 

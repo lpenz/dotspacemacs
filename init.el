@@ -343,6 +343,8 @@ you should place your code here."
   (setq powerline-default-separator 'utf-8)
   (setq python-shell-interpreter "python")
   (setq helm-ag-command-option " -U ")
+  (add-hook 'prog-mode 'spacemacs/toggle-semantic-stickyfunc-off)
+  (add-hook 'anaconda-mode-hook 'spacemacs/toggle-semantic-stickyfunc-off)
   (spacemacs/toggle-semantic-stickyfunc-globally-off)
   )
 

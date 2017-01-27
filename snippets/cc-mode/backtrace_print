@@ -5,7 +5,7 @@
 #define backtrace_print(func) do { \
         static int calls = 0; \
         size_t size = 10; \
-        void *array[n]; \
+        void *array[size]; \
         char **strings; \
         size_t i; \
         size = backtrace (array, size); \

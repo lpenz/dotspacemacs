@@ -330,6 +330,7 @@ you should place your code here."
   (define-key evil-normal-state-map (kbd "C-P") 'evil-jump-forward)
   (define-key evil-insert-state-map (kbd "<f2>") 'save-buffer)
   (define-key evil-normal-state-map (kbd "<f2>") 'save-buffer)
+  (define-key evil-normal-state-map (kbd "<f3>") 'magit-ediff-show-unstaged)
   (define-key evil-insert-state-map (kbd "<f4>") 'spacemacs/next-error)
   (define-key evil-normal-state-map (kbd "<f4>") 'spacemacs/next-error)
   (define-key evil-normal-state-map (kbd "<f9>") 'spacemacs/error-transient-state/body)

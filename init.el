@@ -83,10 +83,7 @@ values."
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
-   dotspacemacs-excluded-packages
-   '(
-         smartparens
-    )
+   dotspacemacs-excluded-packages '(smartparens)
    ;; Defines the behaviour of Spacemacs when installing packages.
    ;; Possible values are `used-only', `used-but-keep-unused' and `all'.
    ;; `used-only' installs only explicitly used packages and uninstall any
@@ -337,7 +334,6 @@ you should place your code here."
   (define-key evil-normal-state-map (kbd "<f9>") 'spacemacs/error-transient-state/body)
   (define-key evil-normal-state-map (kbd "<f10>") 'projectile-compile-project)
   (define-key evil-normal-state-map (kbd "<f12>") 'neotree-toggle)
-  (setq-default evil-escape-key-sequence "qx")
   ; (cd command-line-default-directory) ; do not start in buffer file dir
   ; (add-hook 'find-file-hook #'(lambda () (cd command-line-default-directory))) ; go back to original dir after opening buffer
   ; (define-key evil-normal-state-map (kbd "C-C C-C") 'save-buffers-kill-terminal); magic commit shortcut!
@@ -348,7 +344,7 @@ you should place your code here."
   (add-hook 'prog-mode 'spacemacs/toggle-semantic-stickyfunc-off)
   (add-hook 'anaconda-mode-hook 'spacemacs/toggle-semantic-stickyfunc-off)
   (spacemacs/toggle-semantic-stickyfunc-globally-off)
-  )
+  (setq-default evil-escape-key-sequence "qx"))
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.

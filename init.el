@@ -326,6 +326,7 @@ This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (define-key evil-normal-state-map (kbd "C-P") 'evil-jump-forward)
+  (define-key evil-normal-state-map (kbd "*") 'evil-search-word-forward) ; make sure
   (define-key evil-insert-state-map (kbd "<f2>") 'save-buffer)
   (define-key evil-normal-state-map (kbd "<f2>") 'save-buffer)
   (define-key evil-normal-state-map (kbd "<f3>") 'magit-ediff-show-unstaged)

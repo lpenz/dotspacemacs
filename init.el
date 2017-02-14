@@ -342,9 +342,8 @@ you should place your code here."
   (setq powerline-default-separator 'arrow)
   (setq python-shell-interpreter "python")
   (setq helm-ag-command-option " -U ")
-  (add-hook 'prog-mode 'spacemacs/toggle-semantic-stickyfunc-off)
-  (add-hook 'anaconda-mode-hook 'spacemacs/toggle-semantic-stickyfunc-off)
-  (spacemacs/toggle-semantic-stickyfunc-globally-off)
+  (add-hook 'prog-mode-hook 'spacemacs/toggle-highlight-indentation-current-column-on)
+  (spacemacs/toggle-highlight-current-line-globally-off)
   (setq-default evil-escape-key-sequence "qx"))
 
 ;; Do not write anything past this comment. This is where Emacs will

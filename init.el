@@ -67,7 +67,7 @@ values."
      lua
      shell-scripts
      ansible
-     semantic
+     ; semantic
      perforce
      javascript
      (ranger :variables ranger-show-preview t)

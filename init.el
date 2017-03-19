@@ -73,6 +73,7 @@ values."
      (ranger :variables ranger-show-preview t)
      go
      csv
+     nixos
      docker
      )
    ;; List of additional packages that will be installed without being

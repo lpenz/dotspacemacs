@@ -341,6 +341,7 @@ you should place your code here."
   ; (add-hook 'find-file-hook #'(lambda () (cd command-line-default-directory))) ; go back to original dir after opening buffer
   ; (define-key evil-normal-state-map (kbd "C-C C-C") 'save-buffers-kill-terminal); magic commit shortcut!
   (setq dotspacemacs-auto-save-file-location 'original)
+  (setq create-lockfiles nil)
   (setq powerline-default-separator 'arrow)
   (setq python-shell-interpreter "python")
   (setq helm-ag-command-option " -U ")

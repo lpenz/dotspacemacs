@@ -358,6 +358,8 @@ you should place your code here."
   (global-company-mode)
   (add-hook 'prog-mode-hook 'spacemacs/toggle-highlight-indentation-current-column-on)
   (spacemacs/toggle-highlight-current-line-globally-off)
+  ;; <local>
+  ;; </local>
   (setq-default evil-escape-key-sequence "qx"))
 
 ;; Do not write anything past this comment. This is where Emacs will

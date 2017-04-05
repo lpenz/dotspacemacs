@@ -355,6 +355,7 @@ you should place your code here."
   (setq powerline-default-separator 'arrow)
   (setq python-shell-interpreter "python")
   (setq helm-ag-command-option " -U ")
+  (global-company-mode)
   (add-hook 'prog-mode-hook 'spacemacs/toggle-highlight-indentation-current-column-on)
   (spacemacs/toggle-highlight-current-line-globally-off)
   (setq-default evil-escape-key-sequence "qx"))

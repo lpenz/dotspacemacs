@@ -330,6 +330,7 @@ executes.
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
   (setq-default evil-search-module 'evil-search)
+  (setq spacemacs-theme-custom-colors '((green-bg-s . "#00ff00")))
   )
 
 (defun dotspacemacs/user-config ()

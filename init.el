@@ -161,7 +161,8 @@ values."
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '(
-                               "DejaVuSansMono:size=18"
+                               "DejaVuSansMono:size=15:antialias=true:autohint=true"
+                               ; "SourceCodePro:size=13:weight=normal:width=normal"
                                :powerline-scale 1.1
                                )
    ;; The leader key

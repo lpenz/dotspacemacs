@@ -64,6 +64,7 @@ values."
      vimscript
      yaml
      graphviz
+     ess
      html
      lua
      shell-scripts

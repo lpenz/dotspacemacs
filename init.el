@@ -363,6 +363,7 @@ you should place your code here."
   (setq python-shell-interpreter "python")
   (setq web-mode-enable-auto-closing 'nil)
   (setq web-mode-enable-auto-quoting 'nil)
+  (setq company-auto-complete 'nil)
   (global-company-mode)
   (add-hook 'prog-mode-hook 'spacemacs/toggle-highlight-indentation-current-column-on)
   (spacemacs/toggle-highlight-current-line-globally-off)

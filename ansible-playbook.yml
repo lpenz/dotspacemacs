@@ -4,4 +4,4 @@
     # - apt: package=vim state=present
     - git: repo="https://github.com/lpenz/dotspacemacs.git" dest="{{lookup('env','HOME')}}/.spacemacs.d"
     - git: repo="https://github.com/syl20bnr/spacemacs.git" dest="{{lookup('env','HOME')}}/.emacs.d"
-    - shell: emacs -nw --eval '(kill-emacs)' < /dev/tty
+    - shell: emacs -nw -batch
